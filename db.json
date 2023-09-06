@@ -1,0 +1,34 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel Estrella",
+      "description": "Un lugar de lujo para tus vacaciones.",
+      "image": "/img/hotel1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Hotel Playa Dorada",
+      "description": "Disfruta de la tranquilidad junto al mar.",
+      "image": "/img/hotel2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hotel Montaña Verde",
+      "description": "Un refugio en medio de la naturaleza.",
+      "image": "/img/hotel3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hotel Ciudad Moderna",
+      "description": "Explora la vida urbana desde la comodidad.",
+      "image": "/img/hotel4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hotel Oasis Sereno",
+      "description": "Un rincón tranquilo en el desierto.",
+      "image": "/img/hotel5.jpg"
+    }
+  ]
+}
