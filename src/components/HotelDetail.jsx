@@ -34,4 +34,21 @@ function HotelDetail() {
   if (error) {
     return <div>Error Fetching Hotel! {error.message}</div>;
   }
+
+  return (
+    <Card sx={{ maxWidth: 345, backgroundColor: "#e8e8e8" }}>
+      <CardMedia sx={{ height: 140 }} image={hotel.image} title={hotel.name} />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          {hotel.name}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {hotel.description}
+        </Typography>
+      </CardContent>
+      <CardActions>{/* Formulario */}</CardActions>
+    </Card>
+  );
 }
+
+export default HotelDetail;
